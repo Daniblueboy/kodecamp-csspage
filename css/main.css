@@ -1,0 +1,325 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+body, html {
+    height: 100%;
+  }
+
+.banner{
+    display: flex;
+    background-image: url(/images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.abt{
+    padding: 20px;
+    margin-top: 500px;
+}
+
+.abt p{
+    font-weight: 400;
+    font-size: 4rem;
+    color: white;
+}
+
+.left{
+    width: 45%;
+    background-color: white;
+    text-align: justify;
+    margin-top:500px;
+    padding: 20px;
+}
+.sec{
+    background-color: pink;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0px 100px;
+    color:white;
+}
+.ext{
+    width:70%;
+    margin:20px;
+}
+.ext p{
+    line-height: 30px;
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.ext2{
+    width:60%;
+    margin:20px;
+}
+
+.ext2 p{
+    line-height: 18px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.gal{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;  
+}
+.gal div{
+    width:425px;
+    height: 400px;
+    margin: 0px;
+}
+.bgpics1{
+    background-image: url(/images/gallery-1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.bgpics2{
+    background-image: url(/images/gallery-2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+ 
+}
+.bgpics3{
+    background-image: url(/images/gallery-3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.bgpics4{
+    background-image: url(/images/gallery-4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+  
+}
+.bgpics5{
+    background-image: url(/images/gallery-5.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+   
+}
+.bgpics6{
+    background-image: url(/images/gallery-6.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+ 
+}
+.pics{
+    width: 500px;
+    height: 450px;
+    margin-bottom: 0px;
+
+}
+.promo{
+    background-color: pink;
+    padding: 20px;
+    margin: 0px 90x;
+}
+.promo p{
+    text-align: center;
+    color: white;
+}
+form{
+    text-align: center;
+    margin: 20px;
+    padding: 1.5rem;
+}
+.promoinput{
+    width: 15%; 
+    padding: .5rem;   
+    outline: none;
+    border-radius: 20px;
+    border: none;
+  }
+  button {
+    color: white;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    background: black;
+    border-radius: 20px;
+    width: 10%;
+    text-align: center;
+    font-size: .8rem;
+    font-style: normal;
+  }
+
+  .focus{
+    display:flex;
+    justify-content: center;
+    margin:3rem 0px;
+    background: #fff;
+    padding: .5rem;
+}
+
+.pics1 img{
+    width: 400px;
+    height: 500px;
+    margin:.2rem 1.5rem 2rem 3rem;
+}
+.art{
+   margin:2rem;
+   padding: 2rem;
+}
+.art p{
+text-align: justify;
+line-height: 1.3;
+font-weight: 400;
+font-size: 1.1rem;
+margin: 1.8rem;
+}
+.sign{
+    color: pink;
+}
+.slide{
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.picsholder{
+    margin:5px;
+}
+
+.slidepics{
+    width: 240px;
+    height: 320px;
+}
+.caption{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: 10px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:40px 200px 0px 200px;
+    
+}
+.productArt{
+    margin: 20px;
+    width: 240px;
+    height: 320px;
+}
+.sample{
+   
+    margin: 20px;
+}
+.cost{
+    
+    font-weight: bold;
+    margin: 20px;
+}
+.para{
+   
+    margin: 20px 20px 10px 20px;
+}
+.productArt button{
+    color: white;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    background: black;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: .8rem;
+    font-style: normal;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footimage{
+    flex: 0.5;
+}
+.footimage img{
+    width: 100%;
+    height: 450px;
+}
+.underline{
+    border-bottom: 4px solid pink;
+    width: 90%;
+    margin-top: 70px;
+}
+
+.sub{
+    margin: 0px 20px;
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.capt{
+    font-size: 24px;
+    font-weight:bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.footform{
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+    padding: 1.5rem;
+}
+.footinput{
+    width: 35%; 
+    padding: .5rem;    
+    outline: none;
+  }
+  .footform button {
+    color: white;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    background: black;
+    border-radius: 20px;
+    width: 20%;
+    text-align: center;
+    font-size: .8rem;
+    font-style: normal;
+    margin: 10px ;
+  }
+  .capText{
+      text-align: center;
+      width: 60%;
+      margin-bottom: 10px;
+  }
+  .fab{
+      font-size: 30px;
+     
+  }
+  .fas{
+    font-size: 30px;
+    color:white; 
+  }
