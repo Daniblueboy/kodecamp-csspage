@@ -11,7 +11,7 @@ body, html {
 
 .banner{
     display: flex;
-    background-image: url(./images/banner.jpeg);
+    background-image: url(/images/banner.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     padding: 20px;
@@ -88,33 +88,33 @@ body, html {
     margin: 0px;
 }
 .bgpics1{
-    background-image: url(./images/gallery-1.jpeg);
+    background-image: url(/images/gallery-1.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 .bgpics2{
-    background-image: url(./images/gallery-2.jpeg);
+    background-image: url(/images/gallery-2.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
   
  
 }
 .bgpics3{
-    background-image: url(./images/gallery-3.jpeg);
+    background-image: url(/images/gallery-3.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     
     
 }
 .bgpics4{
-    background-image: url(./images/gallery-4.jpeg);
+    background-image: url(/images/gallery-4.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     
   
 }
 .bgpics5{
-    background-image: url(./images/gallery-5.jpeg);
+    background-image: url(/images/gallery-5.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     
