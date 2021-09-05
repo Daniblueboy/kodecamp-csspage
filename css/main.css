@@ -121,7 +121,7 @@ body, html {
    
 }
 .bgpics6{
-    background-image: url(./images/gallery-6.jpeg);
+    background-image: url(/images/gallery-6.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
    
