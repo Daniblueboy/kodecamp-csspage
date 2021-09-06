@@ -189,27 +189,28 @@ form{
     margin:.2rem 1.5rem 2rem 3rem;
 }
 .art{
-   margin:2rem;
-   padding: 2rem;
+    padding: 5rem;
 }
-.art p{
-    text-align: justify;
-    justify-content: center;
+.art img{
+    margin:0px 20px;
 }
+
 .artp{
     
-    line-height: 1rem;
     font-weight: 100;
     font-size: 1.1rem;
+    margin:0px 2rem 0px 2rem;
+    padding: 2rem;
+    text-align: justify;
     
 }
-.sign{
+/* .sign{
    margin-left: 50px;
     color: pink;
     font-size: 2rem;
     font-weight: 400;
     font-style:italic;
-}
+} */
 .slide{
     background-color: pink;
     padding: 20px;
