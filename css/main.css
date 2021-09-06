@@ -290,8 +290,9 @@ footer{
     align-items: center;
 }
 .capt{
-    font-size: 24px;
+    font-size: 3rem;
     font-weight:bold;
+    font-style: italic;
     margin: 10px;
     text-align: center;
 }
