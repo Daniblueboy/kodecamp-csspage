@@ -191,16 +191,13 @@ form{
 .art{
     padding: 5rem;
 }
-.art img{
-    margin:0px 20px;
-}
 
 .artp{
     
     font-weight: 100;
     font-size: 1.1rem;
     margin:0px 2rem 0px 2rem;
-    padding: 2rem;
+    padding: 0.2rem;
     text-align: justify;
     
 }
